@@ -25,7 +25,7 @@ while not end_of_game:
         if lives == 0:
             clear()
             end_of_game = True
-            print(f"You lose, The word was '{chosen_word}' \n Try again")
+            print(f"You lose, The word was '{chosen_word}' \n Try again.")
     print(f"{' '.join(display)}")
     if "_" not in display:
         end_of_game = True
